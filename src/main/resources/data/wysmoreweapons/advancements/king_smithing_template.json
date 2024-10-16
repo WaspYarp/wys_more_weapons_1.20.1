@@ -1,0 +1,35 @@
+{
+  "parent": "wysmoreweapons:ancient_crown",
+  "display": {
+    "icon": {
+      "item": "wysmoreweapons:king_tier_upgrade_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.wysmoreweapons.king_smithing_template_title"
+    },
+    "description": {
+      "translate": "advancements.wysmoreweapons.king_smithing_template_description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wysmoreweapons:king_tier_upgrade_smithing_template"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

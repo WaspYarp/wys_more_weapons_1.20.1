@@ -1,0 +1,39 @@
+{
+  "parent": "wysmoreweapons:main/wys_armors_root",
+  "criteria": {
+    "ancient_crown": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wysmoreweapons:ancient_crown"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.wysmoreweapons.ancient_crown_description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "wysmoreweapons:ancient_crown",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.wysmoreweapons.ancient_crown_title"
+    }
+  },
+  "requirements": [
+    [
+      "ancient_crown"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

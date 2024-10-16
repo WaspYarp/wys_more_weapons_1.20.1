@@ -1,0 +1,6 @@
+{
+  "parent":"wysmoreweapons:item/models/weapon_model_rapier",
+  "textures": {
+    "layer0": "wysmoreweapons:item/iron_rapier"
+  }
+}

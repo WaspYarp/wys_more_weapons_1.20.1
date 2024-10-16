@@ -1,0 +1,11 @@
+{
+  "entries": [
+    "wysmoreweapons:ancient_crown_from_desert_well",
+    "wysmoreweapons:ancient_crown_from_desert_pyramid",
+    "wysmoreweapons:ancient_crown_from_ocean_ruin_cold",
+    "wysmoreweapons:ancient_crown_from_trail_ruins_common",
+    "wysmoreweapons:ancient_crown_from_ocean_ruin_warm",
+    "wysmoreweapons:ancient_crown_from_trail_ruins_rare"
+  ],
+  "replace": false
+}

@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 6, 0],
+			"scale": [1.7, 1.7, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 6, 0],
+			"scale": [1.7, 1.7, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [-44.75, -90, 0],
+			"translation": [0.88, 1.95, 2.88],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-44.75, 90, 0],
+			"translation": [0.88, 1.95, 2.88],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"ground": {
+			"translation": [0, 5, 0],
+			"scale": [1.01, 1.01, 0.5]
+		},
+		"head": {
+			"rotation": [-60.63, 58.84, -162.35],
+			"translation": [7.25, 1, -21.5],
+			"scale": [2.6, 2.6, 1.5]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"scale": [2, 2, 1]
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "  M",
+    "MM ",
+    "HM "
+  ],
+  "result": {
+    "item": "wysmoreweapons:iron_estoc"
+  },
+  "show_notification": true
+}

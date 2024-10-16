@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "wysmoreweapons:ancient_crown"
+    },
+    "C": {
+      "item": "minecraft:calcite"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "GCG",
+    "CAC",
+    "GCG"
+  ],
+  "result": {
+    "item": "wysmoreweapons:king_tier_upgrade_smithing_template"
+  },
+  "show_notification": true
+}
