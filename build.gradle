@@ -136,7 +136,7 @@ dependencies {
     // at runtime, use the full JEI jar for Forge
     runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
     //GeckoLib -------------------------------------------------------------------------------
-    //implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
     //WYS API----------------------------------------------------------------------------------------------------
     //implementation fg.deobf("curse.maven:epic-fight-mod-405076:5159623")
     //EPIC FIGHT----------------------------------------------------------------------------------------------------
