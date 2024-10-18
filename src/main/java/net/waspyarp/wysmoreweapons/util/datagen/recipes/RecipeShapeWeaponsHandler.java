@@ -15,17 +15,18 @@ public class RecipeShapeWeaponsHandler extends RecipeProvider {
 
     public RecipeShapeWeaponsHandler(PackOutput pOutput) {
         super(pOutput);}
-
-    public static void longswordCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material, Item handle) {
+    
+    public static void longswordCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material1, Item material2) {
         ShapedRecipeBuilder.shaped(category, result)
-                .pattern("   ")
-                .pattern("M  ")
-                .pattern("H  ")
-                .define('M', material)
-                .define('H', handle)
-                .unlockedBy("has_" + material.getDescriptionId(), has(material))
-                .unlockedBy("has_" + handle.getDescriptionId(), has(handle))
+                .pattern("  M")
+                .pattern("MM ")
+                .pattern("TM ")
+                .define('M', material1)
+                .define('T', material2)
+                .unlockedBy("has_" + material1.getDescriptionId(), has(material1))
+                .unlockedBy("has_" + material2.getDescriptionId(), has(material2))
                 .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting"));
+
     }
     public static void stilettoCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material, Item handle) {
         ShapedRecipeBuilder.shaped(category, result)

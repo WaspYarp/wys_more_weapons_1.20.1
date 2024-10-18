@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    " M ",
+    " M ",
+    "MHM"
+  ],
+  "result": {
+    "item": "wysmoreweapons:diamond_stiletto"
+  },
+  "show_notification": true
+}

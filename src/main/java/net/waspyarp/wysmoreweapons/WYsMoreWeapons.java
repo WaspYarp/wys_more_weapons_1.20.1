@@ -14,7 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 import net.waspyarp.wysmoreweapons.item.ModCreativeTab;
 import net.waspyarp.wysmoreweapons.item.ModItems;
-import net.waspyarp.wysmoreweapons.util.datagen.loot.ModLootModifiers;
+import net.waspyarp.wysmoreweapons.util.datagen.loot.WysLootModifiers;
 
 import org.slf4j.Logger;
 
@@ -31,7 +31,7 @@ public class WYsMoreWeapons {
         ModCreativeTab.register(modEventBus);
         ModItems.register(modEventBus);
 
-        ModLootModifiers.register(modEventBus);
+        WysLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

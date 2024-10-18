@@ -20,7 +20,7 @@
       "translate": "advancements.wysmoreweapons.king_smithing_template_description"
     },
     "frame": "goal",
-    "hidden": false,
+    "hidden": true,
     "icon": {
       "item": "wysmoreweapons:king_tier_upgrade_smithing_template"
     },

@@ -1,36 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ancient_crown": {
+    "has_item.minecraft.iron_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "wysmoreweapons:ancient_crown"
+              "minecraft:iron_ingot"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_calcite": {
+    "has_item.minecraft.stick": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:calcite"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_gold_ingot": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:gold_ingot"
+              "minecraft:stick"
             ]
           }
         ]
@@ -39,22 +27,21 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "wysmoreweapons:king_tier_upgrade_smithing_template"
+        "recipe": "minecraft:iron_stiletto_crafting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_gold_ingot",
-      "has_calcite",
-      "has_ancient_crown",
+      "has_item.minecraft.iron_ingot",
+      "has_item.minecraft.stick",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "wysmoreweapons:king_tier_upgrade_smithing_template"
+      "minecraft:iron_stiletto_crafting"
     ]
   },
   "sends_telemetry_event": false

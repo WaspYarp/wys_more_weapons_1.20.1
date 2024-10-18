@@ -67,28 +67,15 @@ public class RecipeShapeArmorsHandler extends RecipeProvider {
                 .unlockedBy("has_" + template.getDescriptionId(), has(template))
                 .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting"));
     }
-    public static void bootsArmorCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material, Item template, @Nullable String group) {
-        ShapedRecipeBuilder.shaped(category, result)
-                .pattern("M M")
-                .pattern("MTM")
-                .pattern("   ")
-                .define('M', material)
-                .define('T', template)
-                .group(group)
-                .unlockedBy("has_" + material.getDescriptionId(), has(material))
-                .unlockedBy("has_" + template.getDescriptionId(), has(template))
-                .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting"));
-
-    }
-    public static void longswordCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material1, Item material2) {
-        ShapedRecipeBuilder.shaped(category, result)
-                .pattern("  M")
-                .pattern("MM ")
-                .pattern("TM ")
-                .define('M', material1)
-                .define('T', material2)
-                .unlockedBy("has_" + material1.getDescriptionId(), has(material1))
-                .unlockedBy("has_" + material2.getDescriptionId(), has(material2))
+    public static void kingUpgradeCrafting(Consumer<FinishedRecipe> consumer, Item result, int resultCount, RecipeCategory category,Item crown, Item material1, Item material2) {
+        ShapedRecipeBuilder.shaped(category, result, resultCount)
+                .pattern("PGP")
+                .pattern("GCG")
+                .pattern("PGP")
+                .define('C', crown)
+                .define('P', material1)
+                .define('G', material2)
+                .unlockedBy("has_" + crown.getDescriptionId(), has(crown))
                 .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting"));
 
     }
@@ -102,8 +89,19 @@ public class RecipeShapeArmorsHandler extends RecipeProvider {
                 .unlockedBy("has_" + template.getDescriptionId(), has(template))
                 .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting_shapeless"));
     }
+    public static void bootsArmorCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material, Item template, @Nullable String group) {
+        ShapedRecipeBuilder.shaped(category, result)
+                .pattern("M M")
+                .pattern("MTM")
+                .pattern("   ")
+                .define('M', material)
+                .define('T', template)
+                .group(group)
+                .unlockedBy("has_" + material.getDescriptionId(), has(material))
+                .unlockedBy("has_" + template.getDescriptionId(), has(template))
+                .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting"));
 
-
+    }
     public static void modNetheriteSmithing(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item ingredient) {
         SmithingTransformRecipeBuilder.smithing(Ingredient.of(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE), Ingredient.of(ingredient), Ingredient.of(Items.NETHERITE_INGOT), category, result)
                 .unlocks("has_netherite_ingot", has(Items.NETHERITE_INGOT))

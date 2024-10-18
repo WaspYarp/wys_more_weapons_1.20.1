@@ -11,8 +11,8 @@ import net.minecraftforge.registries.RegistryObject;
 import net.waspyarp.wysmoreweapons.WYsMoreWeapons;
 import net.waspyarp.wysmoreweapons.item.ModItems;
 
-public class ModItemModelProvider extends ItemModelProvider {
-    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+public class WysItemModelProvider extends ItemModelProvider {
+    public WysItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, WYsMoreWeapons.MOD_ID, existingFileHelper);
     }
 

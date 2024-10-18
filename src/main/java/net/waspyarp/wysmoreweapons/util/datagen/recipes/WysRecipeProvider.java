@@ -2,15 +2,16 @@ package net.waspyarp.wysmoreweapons.util.datagen.recipes;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.waspyarp.wysmoreweapons.item.ModItems;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Consumer;
 
-public class ModRecipeProvider extends RecipeProvider {
+public class WysRecipeProvider extends RecipeProvider {
 
-    public ModRecipeProvider(PackOutput output) {
+    public WysRecipeProvider(PackOutput output) {
         super(output);
     }
 
@@ -36,16 +37,7 @@ public class ModRecipeProvider extends RecipeProvider {
         RecipeShapeWeaponsHandler.estocCrafting(consumer, ModItems.DIAMOND_ESTOC.get(), RecipeCategory.COMBAT, Items.DIAMOND, Items.STICK);
         RecipeShapeArmorsHandler.modNetheriteSmithing(consumer, ModItems.NETHERITE_ESTOC.get(), RecipeCategory.COMBAT, ModItems.DIAMOND_ESTOC.get());
     //---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.KING_TIER_UPGRADE_SMITHING_TEMPLATE.get(),1)
-                .pattern("GCG")
-                .pattern("CAC")
-                .pattern("GCG")
-                .define('G', Items.GOLD_INGOT)
-                .define('C', Items.CALCITE)
-                .define('A', ModItems.ANCIENT_CROWN.get())
-                .unlockedBy(getHasName(Items.GOLD_INGOT), has(Items.GOLD_INGOT))
-                .unlockedBy(getHasName(Items.CALCITE), has(Items.CALCITE))
-                .unlockedBy(getHasName(ModItems.ANCIENT_CROWN.get()), has(ModItems.ANCIENT_CROWN.get()))
-                .save(consumer);
+        RecipeShapeArmorsHandler.kingUpgradeCrafting(consumer, ModItems.KING_TIER_UPGRADE_SMITHING_TEMPLATE.get(), 4, RecipeCategory.MISC, ModItems.ANCIENT_CROWN.get(), Items.CALCITE, Items.GOLD_BLOCK);
+
     }
 }

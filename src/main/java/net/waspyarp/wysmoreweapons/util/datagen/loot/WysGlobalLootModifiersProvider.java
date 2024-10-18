@@ -8,10 +8,9 @@ import net.minecraftforge.common.loot.LootTableIdCondition;
 
 import net.waspyarp.wysmoreweapons.WYsMoreWeapons;
 import net.waspyarp.wysmoreweapons.item.ModItems;
-import net.waspyarp.wysmoreweapons.util.datagen.loot.AddSusBlocksItemModifier;
 
-public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
-    public ModGlobalLootModifiersProvider(PackOutput output) {
+public class WysGlobalLootModifiersProvider extends GlobalLootModifierProvider {
+    public WysGlobalLootModifiersProvider(PackOutput output) {
         super(output, WYsMoreWeapons.MOD_ID);
     }
 

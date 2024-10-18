@@ -57,10 +57,19 @@
   "item.wysmoreweapons.king_tier_upgrade_smithing_template": "Smithing Template",
 
 "//KING": "tooltips",
+  "tooltip.wysmoreweapons.archer_tier": " Leather Tier",
+  "tooltip.wysmoreweapons.horseman_tier": " Chain Tier",
+  "tooltip.wysmoreweapons.iron_tier": " Iron Tier",
+  "tooltip.wysmoreweapons.diamond_tier": " Diamond Tier",
+  "tooltip.wysmoreweapons.netherite_tier": " Netherite Tier",
+
+  "tooltip.wysmoreweapons.template_l1":" A paper with info about",
+  "tooltip.wysmoreweapons.template_l2":"some lost civilization",
   "tooltip.wysmoreweapons.ancient_crown": " Too worn to wear it",
   "tooltip.wysmoreweapons.upgrade_description":"King Upgrade",
   "tooltip.wysmoreweapons.upgrade_applies_to":" Wy´s Armors",
   "tooltip.wysmoreweapons.upgrade_ingredients":" Gold Block",
+
   "tooltip.wysmoreweapons.plis_download_my_other_mods": "Check out for my armors mods!",
 
  "//#AD":"my mods",
@@ -71,6 +80,6 @@
   "advancements.wysmoreweapons.root_description": "Obtain your very first template for your adventure",
   "advancements.wysmoreweapons.ancient_crown_title": "Oh Dirty",
   "advancements.wysmoreweapons.ancient_crown_description": "soo broken... maybe has another use?",
-  "advancements.wysmoreweapons.king_smithing_template_title": "...",
+  "advancements.wysmoreweapons.king_smithing_template_title": "Long Live...",
   "advancements.wysmoreweapons.king_smithing_template_description": "..."
 }

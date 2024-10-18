@@ -1,12 +1,10 @@
 {
   "criteria": {
-    "ancient_crown": {
+    "template_items": {
       "conditions": {
         "items": [
           {
-            "items": [
-              "wysmoreweapons:ancient_crown"
-            ]
+            "tag": "wysmoreweapons:template_items"
           }
         ]
       },
@@ -14,24 +12,24 @@
     }
   },
   "display": {
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "background": "minecraft:textures/block/oak_planks.png",
     "description": {
       "translate": "advancements.wysmoreweapons.root_description"
     },
     "frame": "task",
-    "hidden": false,
+    "hidden": true,
     "icon": {
       "item": "minecraft:book"
     },
-    "show_toast": false,
+    "show_toast": true,
     "title": {
       "translate": "advancements.wysmoreweapons.root_title"
     }
   },
   "requirements": [
     [
-      "ancient_crown"
+      "template_items"
     ]
   ],
   "sends_telemetry_event": true
