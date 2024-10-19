@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "wysmoreweapons:ancient_crown"
+      "item": "wyamoreweapons:ancient_crown"
     },
     "G": {
       "item": "minecraft:gold_block"
@@ -19,7 +19,7 @@
   ],
   "result": {
     "count": 4,
-    "item": "wysmoreweapons:king_tier_upgrade_smithing_template"
+    "item": "wyamoreweapons:king_tier_upgrade_smithing_template"
   },
   "show_notification": true
 }

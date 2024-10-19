@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_item.wysmoreweapons.ancient_crown": {
+    "has_item.wyamoreweapons.ancient_crown": {
       "conditions": {
         "items": [
           {
             "items": [
-              "wysmoreweapons:ancient_crown"
+              "wyamoreweapons:ancient_crown"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_item.wysmoreweapons.ancient_crown",
+      "has_item.wyamoreweapons.ancient_crown",
       "has_the_recipe"
     ]
   ],

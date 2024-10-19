@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "template_items": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "wyamoreweapons:template_items"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/oak_planks.png",
+    "description": {
+      "translate": "advancements.wyamoreweapons.root_description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:book"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.wyamoreweapons.root_title"
+    }
+  },
+  "requirements": [
+    [
+      "template_items"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

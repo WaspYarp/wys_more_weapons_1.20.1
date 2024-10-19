@@ -1,6 +1,0 @@
-{
-  "parent":"wysmoreweapons:item/models/weapon_model_estoc",
-  "textures": {
-    "layer0": "wysmoreweapons:item/iron_estoc"
-  }
-}

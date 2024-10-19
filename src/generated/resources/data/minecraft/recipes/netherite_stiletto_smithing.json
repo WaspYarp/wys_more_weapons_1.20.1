@@ -4,10 +4,10 @@
     "item": "minecraft:netherite_ingot"
   },
   "base": {
-    "item": "wysmoreweapons:diamond_stiletto"
+    "item": "wyamoreweapons:diamond_stiletto"
   },
   "result": {
-    "item": "wysmoreweapons:netherite_stiletto"
+    "item": "wyamoreweapons:netherite_stiletto"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"

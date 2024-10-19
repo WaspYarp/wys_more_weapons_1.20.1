@@ -1,0 +1,85 @@
+{
+"//WEAPONS": "items",
+  "item.wyamoreweapons.iron_stiletto": "Iron Stiletto",
+  "item.wyamoreweapons.diamond_stiletto": "Diamond Stiletto",
+  "item.wyamoreweapons.netherite_stiletto": "Netherite Stiletto",
+
+  "item.wyamoreweapons.iron_rapier": "Iron Rapier",
+  "item.wyamoreweapons.diamond_rapier": "Diamond Rapier",
+  "item.wyamoreweapons.netherite_rapier": "Netherite Rapier",
+
+  "item.wyamoreweapons.iron_estoc": "Iron Estoc",
+  "item.wyamoreweapons.diamond_estoc": "Diamond Estoc",
+  "item.wyamoreweapons.netherite_estoc": "Netherite Estoc",
+
+  "item.wyamoreweapons.iron_longsword": "Iron Longsword",
+  "item.wyamoreweapons.diamond_longsword": "Diamond Longsword",
+  "item.wyamoreweapons.netherite_longsword": "Netherite Longsword",
+
+  "item.wyamoreweapons.iron_claymore": "Iron Claymore",
+  "item.wyamoreweapons.diamond_claymore": "Diamond Claymore",
+  "item.wyamoreweapons.netherite_claymore": "Netherite Claymore",
+
+  "item.wyamoreweapons.iron_zweihander": "Iron Zweihander",
+  "item.wyamoreweapons.diamond_zweihander": "Diamond Zweihander",
+  "item.wyamoreweapons.netherite_zweihander": "Netherite Zweihander",
+
+  "item.wyamoreweapons.iron_flamberge": "Iron Flamberge",
+  "item.wyamoreweapons.diamond_flamberge": "Diamond Flamberge",
+  "item.wyamoreweapons.netherite_flamberge": "Netherite Flamberge",
+
+  "item.wyamoreweapons.iron_flanged_mace": "Iron Flanged Mace",
+  "item.wyamoreweapons.diamond_flanged_mace": "Diamond Flanged Mace",
+  "item.wyamoreweapons.netherite_flanged_mace": "Netherite Flanged Mace",
+
+  "item.wyamoreweapons.iron_spear": "Iron Spear",
+  "item.wyamoreweapons.diamond_spear": "Diamond Spear",
+  "item.wyamoreweapons.netherite_spear": "Netherite Spear",
+
+  "item.wyamoreweapons.iron_halberd": "Iron Halberd",
+  "item.wyamoreweapons.diamond_halberd": "Diamond Halberd",
+  "item.wyamoreweapons.netherite_halberd": "Netherite Halberd",
+
+  "item.wyamoreweapons.iron_pike": "Iron Pike",
+  "item.wyamoreweapons.diamond_pike": "Diamond Pike",
+  "item.wyamoreweapons.netherite_pike": "Netherite Pike",
+
+  "item.wyamoreweapons.iron_lance": "Iron Lance",
+  "item.wyamoreweapons.diamond_lance": "Diamond Lance",
+  "item.wyamoreweapons.netherite_lance": "Netherite Lance",
+
+"//WEAPONS": "deeperdarker",
+  "item.wyamoreweapons.warden_rapier": "Warden Rapier",
+  "item.wyamoreweapons.warden_estoc": "Warden Estoc",
+
+"//CARMORY": "items",
+  "item.wyamoreweapons.ancient_crown": "Ancient Crown",
+  "item.wyamoreweapons.king_tier_upgrade_smithing_template": "Smithing Template",
+
+"//KING": "tooltips",
+  "tooltip.wyamoreweapons.archer_tier": " Leather Tier",
+  "tooltip.wyamoreweapons.horseman_tier": " Chain Tier",
+  "tooltip.wyamoreweapons.iron_tier": " Iron Tier",
+  "tooltip.wyamoreweapons.diamond_tier": " Diamond Tier",
+  "tooltip.wyamoreweapons.netherite_tier": " Netherite Tier",
+
+  "tooltip.wyamoreweapons.template_l1":" A paper with info about",
+  "tooltip.wyamoreweapons.template_l2":"some lost civilization",
+  "tooltip.wyamoreweapons.ancient_crown": " Too worn to wear it",
+  "tooltip.wyamoreweapons.upgrade_description":"King Upgrade",
+  "tooltip.wyamoreweapons.upgrade_applies_to":" Wy´s Armors",
+  "tooltip.wyamoreweapons.upgrade_ingredients":" Gold Block",
+
+  "tooltip.wyamoreweapons.plis_download_my_other_mods": "Check out for my armors mods!",
+
+ "//#AD":"my mods",
+  "tooltip.wyamoreweapons.shift_hint": " Hold Shift",
+
+  "//ADVANCEMENTS": "names",
+  "advancements.wyamoreweapons.root_title": "I choose...",
+  "advancements.wyamoreweapons.root_description": "Obtain your very first template for your adventure",
+  "advancements.wyamoreweapons.ancient_crown_title": "Oh Dirty",
+  "advancements.wyamoreweapons.ancient_crown_description": "soo broken... maybe has another use?",
+  "advancements.wyamoreweapons.king_smithing_template_title": "Long Live...",
+  "advancements.wyamoreweapons.king_smithing_template_description": "..."
+}
