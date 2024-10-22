@@ -1,6 +1,7 @@
 package net.waspyarp.wyamoreweapons.util.datagen;
 
 import net.minecraft.advancements.Advancement;
+import net.minecraft.advancements.AdvancementRewards;
 import net.minecraft.advancements.FrameType;
 import net.minecraft.advancements.RequirementsStrategy;
 import net.minecraft.advancements.critereon.*;
@@ -24,13 +25,14 @@ public class WysAdvancementsProvider implements ForgeAdvancementProvider.Advance
         String id = "advancements." + WYsMoreWeapons.MOD_ID + ".";
 
         Advancement wysArmorsRoot = Advancement.Builder.advancement()
-                .display(Items.BOOK, Component.translatable(id + "root_title"), Component.translatable(id + "root_description"), new ResourceLocation("minecraft:textures/block/oak_planks.png"), FrameType.TASK, true, true, true)
+                .display(Items.BOOK, Component.translatable(id + "root_title"), Component.translatable(id + "root_description"), new ResourceLocation("minecraft:textures/block/oak_planks.png"), FrameType.TASK, true, true, false)
                 .addCriterion("template_items", InventoryChangeTrigger.TriggerInstance.hasItems(ItemPredicate.Builder.item().of(WysTags.TEMPLATE_ITEMS).build()))
                 .requirements(RequirementsStrategy.OR).save(saver, path("wys_armors_root"), existingFileHelper);
 
         Advancement ancientCrown = Advancement.Builder.advancement().parent(wysArmorsRoot)
                 .display(ModItems.ANCIENT_CROWN.get(), Component.translatable(id + "ancient_crown_title"), Component.translatable(id + "ancient_crown_description"), null, FrameType.CHALLENGE, true, true, true)
                 .addCriterion("ancient_crown", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ANCIENT_CROWN.get()))
+                .rewards(AdvancementRewards.Builder.experience(100))
                 .save(saver, path("obtain_ancient_crown"), existingFileHelper);
 
         Advancement kingUpgrade = Advancement.Builder.advancement().parent(ancientCrown)
