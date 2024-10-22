@@ -17,8 +17,8 @@ public class TemplateItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flag) {
-        tooltip.add(Component.translatable("tooltip.wysmoreweapons.template_l1").withStyle(ChatFormatting.GRAY));
-        tooltip.add(Component.translatable("tooltip.wysmoreweapons.template_l2").withStyle(ChatFormatting.GRAY));
+        tooltip.add(Component.translatable("tooltip.wyamoreweapons.template_l1").withStyle(ChatFormatting.GRAY));
+        tooltip.add(Component.translatable("tooltip.wyamoreweapons.template_l2").withStyle(ChatFormatting.GRAY));
         super.appendHoverText(stack, level, tooltip, flag);
     }
 }
