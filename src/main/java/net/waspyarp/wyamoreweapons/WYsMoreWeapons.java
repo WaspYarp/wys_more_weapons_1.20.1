@@ -1,6 +1,8 @@
 package net.waspyarp.wyamoreweapons;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -28,7 +30,7 @@ public class WYsMoreWeapons {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 
-        ModCreativeTab.register(modEventBus);
+        //ModCreativeTab.register(modEventBus);
         ModItems.register(modEventBus);
 
         WysLootModifiers.register(modEventBus);
@@ -50,7 +52,15 @@ public class WYsMoreWeapons {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ANCIENT_CROWN);
+            event.accept(ModItems.KING_TIER_UPGRADE_SMITHING_TEMPLATE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.IRON_LONGSWORD);
+            event.accept(ModItems.DIAMOND_LONGSWORD);
+            event.accept(ModItems.NETHERITE_LONGSWORD);
+        }
     }
 
     @SubscribeEvent

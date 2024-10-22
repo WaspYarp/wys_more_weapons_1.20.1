@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.waspyarp.wyamoreweapons.WYsMoreWeapons;
 
 public class ModCreativeTab {
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
+    /*public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WYsMoreWeapons.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> CUSTOM_WEAPONRY_TAB = CREATIVE_MODE_TAB.register("wyamoreweapons_tab",
@@ -18,8 +18,8 @@ public class ModCreativeTab {
                     .title(Component.literal("WY's Weaponry"))
                     .displayItems((pParameters, pOutput) -> {
 
-                        /*pOutput.accept(ModItems.ANCIENT_CROWN.get());
-                        pOutput.accept(ModItems.KING_TIER_UPGRADE_SMITHING_TEMPLATE.get());*/
+                        pOutput.accept(ModItems.ANCIENT_CROWN.get());
+                        pOutput.accept(ModItems.KING_TIER_UPGRADE_SMITHING_TEMPLATE.get());
 
                         //weapons
                         pOutput.accept(ModItems.IRON_STILETTO.get());
@@ -34,7 +34,7 @@ public class ModCreativeTab {
                         pOutput.accept(ModItems.DIAMOND_ESTOC.get());
                         pOutput.accept(ModItems.NETHERITE_ESTOC.get());
 
-                        /*
+
                         pOutput.accept(ModItems.IRON_LONGSWORD.get());
                         pOutput.accept(ModItems.DIAMOND_LONGSWORD.get());
                         pOutput.accept(ModItems.NETHERITE_LONGSWORD.get());
@@ -65,17 +65,17 @@ public class ModCreativeTab {
 
                         pOutput.accept(ModItems.IRON_LANCE.get());
                         pOutput.accept(ModItems.DIAMOND_LANCE.get());
-                        pOutput.accept(ModItems.NETHERITE_LANCE.get());*/
+                        pOutput.accept(ModItems.NETHERITE_LANCE.get());
                         // pOutput.accept(ModItems.JAVELIN.get());
 /*
                         if (ModList.get().isLoaded("deeperdarker"))
                             for (RegistryObject<Item> item : DeeperDarkerCompat.ITEMS.getEntries())
                                 if (item.get() instanceof Item)
-                                    pOutput.accept(item.get());*/
+                                    pOutput.accept(item.get());
                     })
                     .build());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
-    }
+    }*/
 }
