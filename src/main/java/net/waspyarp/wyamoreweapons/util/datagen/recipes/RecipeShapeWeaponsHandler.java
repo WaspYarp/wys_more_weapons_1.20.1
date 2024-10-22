@@ -13,49 +13,39 @@ public class RecipeShapeWeaponsHandler extends RecipeProvider {
     public RecipeShapeWeaponsHandler(PackOutput pOutput) {
         super(pOutput);}
     
-    public static void longswordCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material1, Item material2) {
+
+    public static void stilettoCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material, Item handle) {
         ShapedRecipeBuilder.shaped(category, result)
-                .pattern("  M")
-                .pattern("MM ")
-                .pattern("TM ")
-                .define('M', material1)
-                .define('T', material2)
-                .unlockedBy("has_" + material1.getDescriptionId(), has(material1))
-                .unlockedBy("has_" + material2.getDescriptionId(), has(material2))
+                .pattern("   ")
+                .pattern(" M ")
+                .pattern("H  ")
+                .define('M', material)
+                .define('H', handle)
+                .unlockedBy("has_" + material.getDescriptionId(), has(material))
+                .unlockedBy("has_" + handle.getDescriptionId(), has(handle))
+                .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting"));
+    }
+    public static void swordToLongerCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material, Item sword) {
+        ShapedRecipeBuilder.shaped(category, result)
+                .pattern(" M ")
+                .pattern(" M ")
+                .pattern(" S ")
+                .define('M', material)
+                .define('S', sword)
+                .unlockedBy("has_" + material.getDescriptionId(), has(material))
+                .unlockedBy("has_" + sword.getDescriptionId(), has(sword))
                 .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting"));
 
     }
-    public static void stilettoCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material, Item handle) {
+    public static void swordToBiggerCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material, Item sword) {
         ShapedRecipeBuilder.shaped(category, result)
                 .pattern(" M ")
                 .pattern(" M ")
-                .pattern("MHM")
+                .pattern("MSM")
                 .define('M', material)
-                .define('H', handle)
+                .define('S', sword)
                 .unlockedBy("has_" + material.getDescriptionId(), has(material))
-                .unlockedBy("has_" + handle.getDescriptionId(), has(handle))
-                .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting"));
-    }
-    public static void rapierCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material, Item handle) {
-        ShapedRecipeBuilder.shaped(category, result)
-                .pattern(" M ")
-                .pattern(" M ")
-                .pattern("MHM")
-                .define('M', material)
-                .define('H', handle)
-                .unlockedBy("has_" + material.getDescriptionId(), has(material))
-                .unlockedBy("has_" + handle.getDescriptionId(), has(handle))
-                .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting"));
-    }
-    public static void estocCrafting(Consumer<FinishedRecipe> consumer, Item result, RecipeCategory category, Item material, Item handle) {
-        ShapedRecipeBuilder.shaped(category, result)
-                .pattern("  M")
-                .pattern("MM ")
-                .pattern("HM ")
-                .define('M', material)
-                .define('H', handle)
-                .unlockedBy("has_" + material.getDescriptionId(), has(material))
-                .unlockedBy("has_" + handle.getDescriptionId(), has(handle))
+                .unlockedBy("has_" + sword.getDescriptionId(), has(sword))
                 .save(consumer, new ResourceLocation("minecraft", getItemName(result) + "_crafting"));
     }
     @Override

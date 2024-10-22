@@ -3,19 +3,19 @@
   "category": "equipment",
   "key": {
     "M": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:diamond"
     },
     "S": {
-      "item": "wyamoreweapons:iron_stiletto"
+      "item": "minecraft:diamond_sword"
     }
   },
   "pattern": [
     " M ",
     " M ",
-    "MSM"
+    " S "
   ],
   "result": {
-    "item": "wyamoreweapons:iron_estoc"
+    "item": "wyamoreweapons:diamond_longsword"
   },
   "show_notification": true
 }

@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "H": {
-      "item": "minecraft:stick"
-    },
     "M": {
       "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "wyamoreweapons:diamond_stiletto"
     }
   },
   "pattern": [
     " M ",
     " M ",
-    "MHM"
+    " S "
   ],
   "result": {
     "item": "wyamoreweapons:diamond_rapier"

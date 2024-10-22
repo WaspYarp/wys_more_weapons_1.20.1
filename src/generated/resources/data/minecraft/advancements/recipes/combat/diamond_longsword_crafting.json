@@ -13,12 +13,12 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_item.wyamoreweapons.diamond_stiletto": {
+    "has_item.minecraft.diamond_sword": {
       "conditions": {
         "items": [
           {
             "items": [
-              "wyamoreweapons:diamond_stiletto"
+              "minecraft:diamond_sword"
             ]
           }
         ]
@@ -27,7 +27,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:diamond_rapier_crafting"
+        "recipe": "minecraft:diamond_longsword_crafting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -35,13 +35,13 @@
   "requirements": [
     [
       "has_item.minecraft.diamond",
-      "has_item.wyamoreweapons.diamond_stiletto",
+      "has_item.minecraft.diamond_sword",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:diamond_rapier_crafting"
+      "minecraft:diamond_longsword_crafting"
     ]
   },
   "sends_telemetry_event": false

@@ -6,16 +6,16 @@
       "item": "minecraft:iron_ingot"
     },
     "S": {
-      "item": "wyamoreweapons:iron_stiletto"
+      "item": "minecraft:iron_sword"
     }
   },
   "pattern": [
     " M ",
     " M ",
-    "MSM"
+    " S "
   ],
   "result": {
-    "item": "wyamoreweapons:iron_estoc"
+    "item": "wyamoreweapons:iron_longsword"
   },
   "show_notification": true
 }

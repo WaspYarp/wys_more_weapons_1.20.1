@@ -1,7 +1,6 @@
 {
 	"parent": "wyamoreweapons:item/models/weapon_model_flanged_mace",
 	"textures": {
-		"1": "wyamoreweapons:item/diamond_flanged_mace",
-		"particle": "wyamoreweapons:item/diamond_flanged_mace"
+		"layer0": "wyamoreweapons:item/diamond_flanged_mace"
 	}
 }

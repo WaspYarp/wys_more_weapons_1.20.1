@@ -10,9 +10,9 @@
     }
   },
   "pattern": [
+    "   ",
     " M ",
-    " M ",
-    "MHM"
+    "H  "
   ],
   "result": {
     "item": "wyamoreweapons:iron_stiletto"
