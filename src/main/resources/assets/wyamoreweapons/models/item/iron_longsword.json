@@ -1,0 +1,6 @@
+{
+  "parent":"wyamoreweapons:item/models/weapon_model_longsword",
+  "textures": {
+    "layer0": "wyamoreweapons:item/iron_longsword"
+  }
+}

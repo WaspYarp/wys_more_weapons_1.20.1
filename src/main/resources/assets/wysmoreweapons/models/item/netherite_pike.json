@@ -1,6 +1,0 @@
-{
-  "parent":"wysmoreweapons:items/weapons/weapon_model_pikes",
-  "textures": {
-    "layer0": "wysmoreweapons:item/netherite_pike"
-  }
-}

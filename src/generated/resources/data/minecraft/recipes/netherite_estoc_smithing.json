@@ -4,10 +4,10 @@
     "item": "minecraft:netherite_ingot"
   },
   "base": {
-    "item": "wysmoreweapons:diamond_estoc"
+    "item": "wyamoreweapons:diamond_estoc"
   },
   "result": {
-    "item": "wysmoreweapons:netherite_estoc"
+    "item": "wyamoreweapons:netherite_estoc"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"

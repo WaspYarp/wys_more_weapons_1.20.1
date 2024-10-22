@@ -1,0 +1,6 @@
+{
+	"parent": "wyamoreweapons:item/models/weapon_model_flanged_mace",
+	"textures": {
+		"layer0": "wyamoreweapons:item/netherite_flanged_mace"
+	}
+}

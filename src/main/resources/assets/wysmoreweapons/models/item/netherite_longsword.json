@@ -1,6 +1,0 @@
-{
-  "parent":"wysmoreweapons:item/models/weapon_model_longsword",
-  "textures": {
-    "layer0": "wysmoreweapons:item/netherite_longsword"
-  }
-}

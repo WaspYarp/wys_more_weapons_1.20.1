@@ -4,10 +4,10 @@
     "item": "minecraft:netherite_ingot"
   },
   "base": {
-    "item": "wysmoreweapons:diamond_rapier"
+    "item": "wyamoreweapons:diamond_rapier"
   },
   "result": {
-    "item": "wysmoreweapons:netherite_rapier"
+    "item": "wyamoreweapons:netherite_rapier"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"

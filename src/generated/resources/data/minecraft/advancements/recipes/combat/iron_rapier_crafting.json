@@ -13,12 +13,12 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_item.minecraft.stick": {
+    "has_item.wyamoreweapons.iron_stiletto": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stick"
+              "wyamoreweapons:iron_stiletto"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_item.minecraft.iron_ingot",
-      "has_item.minecraft.stick",
+      "has_item.wyamoreweapons.iron_stiletto",
       "has_the_recipe"
     ]
   ],

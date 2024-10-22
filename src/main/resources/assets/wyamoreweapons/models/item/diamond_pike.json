@@ -1,0 +1,6 @@
+{
+  "parent":"wyamoreweapons:items/weapons/weapon_model_pikes",
+  "textures": {
+    "layer0": "wyamoreweapons:item/diamond_pike"
+  }
+}

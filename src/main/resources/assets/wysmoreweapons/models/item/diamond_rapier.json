@@ -1,6 +1,0 @@
-{
-  "parent":"wysmoreweapons:item/models/weapon_model_rapier",
-  "textures": {
-    "layer0": "wysmoreweapons:item/diamond_rapier"
-  }
-}

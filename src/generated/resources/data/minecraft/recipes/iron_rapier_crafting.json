@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "H": {
-      "item": "minecraft:stick"
-    },
     "M": {
       "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "wyamoreweapons:iron_stiletto"
     }
   },
   "pattern": [
     " M ",
     " M ",
-    "MHM"
+    " S "
   ],
   "result": {
-    "item": "wysmoreweapons:iron_rapier"
+    "item": "wyamoreweapons:iron_rapier"
   },
   "show_notification": true
 }

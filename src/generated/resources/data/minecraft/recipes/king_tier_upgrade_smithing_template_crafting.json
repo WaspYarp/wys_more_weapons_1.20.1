@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "wyamoreweapons:ancient_crown"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "P": {
+      "item": "minecraft:calcite"
+    }
+  },
+  "pattern": [
+    "PGP",
+    "GCG",
+    "PGP"
+  ],
+  "result": {
+    "count": 4,
+    "item": "wyamoreweapons:king_tier_upgrade_smithing_template"
+  },
+  "show_notification": true
+}
